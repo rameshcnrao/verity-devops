@@ -4,7 +4,6 @@ pipeline {
 		
 		// *****ALL CODE TO BE ADDED BELOW THIS COMMENT*****
 		
-		
 		//Code starts for stage Clean
         stage('Clean') {
             steps {
