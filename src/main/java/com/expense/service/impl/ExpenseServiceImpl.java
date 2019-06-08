@@ -54,7 +54,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 	@Override
 	public void deleteById(Long expenseId) {
 		//Uncomment below line to make test fail (ExpenseControllerTest.testDeleteExpense())
-		log.info("Debug delete");
+		//log.info("Debug delete");
 		
 		//Comment below 2 lines to make test fail
 		expenseRepository.deleteById(expenseId);
